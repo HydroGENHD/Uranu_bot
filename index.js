@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const INTENTS = Object.values(GatewayIntentBits);
 const PARTIALS = Object.values(Partials);
 const Discord = require("discord.js") // Discordu İmport Ettik
-require('dotenv').config() // dotenv modülünü İmport Ettik
+require('dotenv').config() // dotenv modülünü İmport Ettik 
 const db = require("croxydb")
 const client = new Client({
     intents: INTENTS,
